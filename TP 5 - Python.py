@@ -96,40 +96,90 @@ Escriba una función en Python para simular la bola mágica."""
 """6. Encuentre el tiempo de ejecución de los programas de los ejercicios 
 anteriores (pista: use el módulo time)"""
 
-import time
+# import time
 
-inicio = time.time()
+# inicio = time.time()
 
-import random
+# import random
 
-numero = random.randint(1,8)
+# numero = random.randint(1,8)
 
-bola = ["Es seguro que sí",
-"Las chances son buenas",
-"Puedes contar con ello",
-"Pregúntame de nuevo más tarde",
-"Concéntrate y pregunta de nuevo",
-"No veo con claridad, intenta de nuevo",
-"Mi respuesta es no",
-"Mis fuentes me dicen que no"]
+# bola = ["Es seguro que sí",
+# "Las chances son buenas",
+# "Puedes contar con ello",
+# "Pregúntame de nuevo más tarde",
+# "Concéntrate y pregunta de nuevo",
+# "No veo con claridad, intenta de nuevo",
+# "Mi respuesta es no",
+# "Mis fuentes me dicen que no"]
 
-print (bola[numero])
+# print (bola[numero])
 
-fin = time.time()
+# fin = time.time()
 
-print(fin-inicio)
+# print(fin-inicio)
 
 """7. (Opcional) Sorteo: Escriba un programa que simule un sorteo donde
 toman uno o más papeles al azar de un pozo para elegir los ganadores."""
 
+# import random
 
+# numeros_ganadores =[]
+
+# numeros_sorteo = []
+
+# for i in range (5):#aqui voy a determinar los 5 numeros que van a ser los ganadores
+#     numeros_ganadores.append(random.randint(0,10))
+
+# for i in range (10):#aqui se van a sacar 100 numeros para ver si coinciden con los 5 numeros ganadores
+#     numeros_sorteo.append(random.randint(0,10))
+
+# print (numeros_ganadores)
+# print (numeros_sorteo)
+
+# def Sorteo (numeros_ganadores, numeros_sorteo):
+#     for i in numeros_sorteo:
+#         if i == numeros_ganadores:
+#             return print (i)
+
+
+# Sorteo (numeros_ganadores, numeros_sorteo)
 
 """8. (Opcional) Escriba una función que pida al usuario ingresar su fecha de 
 nacimiento y sea capaz de devolver la cantidad de días desde su 
 nacimiento hasta hoy."""
 
+# from datetime import datetime
 
+# ahora = datetime.now()
+# nacimiento = datetime.strptime("1988-01-05", "%Y-%m-%d")
+
+# diferencia = ahora - nacimiento
+
+# print (diferencia)
 
 """9. (Opcional) Implemente el programa del ejercicio 6 usando un diccionario"""
 
 
+# import time
+
+# inicio = time.time()
+
+# import random
+
+# numero = random.randint(1,8)
+
+# bola = {"1": "Es seguro que sí",
+# "2": "Las chances son buenas",
+# "3": "Puedes contar con ello",
+# "4": "Pregúntame de nuevo más tarde",
+# "5": "Concéntrate y pregunta de nuevo",
+# "6": "No veo con claridad, intenta de nuevo",
+# "7": "Mi respuesta es no",
+# "8": "Mis fuentes me dicen que no"}
+
+# print (bola[str(numero)])
+
+# fin = time.time()
+
+# print(fin-inicio)
